@@ -60,7 +60,7 @@ const MediaplayerStatusButton = new Lang.Class({
         this._box.add(this._stateTextBin);
         this._box.add(this._stateIconBin);
         this.actor.add_actor(this._box);
-        this.actor.add_style_class_name('panel-status-button');
+        this.actor.add_style_class_name('mpris');
         this.actor.connect('scroll-event', Lang.bind(this, this._onScrollEvent));
     },
 
